@@ -38,9 +38,7 @@ class ActiveUser extends React.Component {
                             <tbody>
                                 {
                                     this.state.spinner ?
-                                        <div style={{ marginLeft: '180%', marginTop: '80%' }}>
-                                            <Spinner />
-                                        </div>
+                                        <Spinner />
                                         :
                                         this.state.datauser.map(function (item, i) {
                                             return (
