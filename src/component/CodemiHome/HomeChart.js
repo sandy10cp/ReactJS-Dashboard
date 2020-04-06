@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomeChart.css';
-import SocialChart from '../SocialLearning/SocialChart';
+import UserChart from './UserChart'
 
 class HomeChart extends React.Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class HomeChart extends React.Component {
         return (
             <>
                 <span>Codemi Home</span>
-                <div className="social-learning">
+                <div className="home-learning">
                     <div className="active-tab" />
                     <div style={{ display: 'inline-block' }}>
                         <p className="social-tab active">Users</p>
@@ -30,7 +30,7 @@ class HomeChart extends React.Component {
                         <span className="home-count">22m 40s</span>
                     </div>
 
-                    <SocialChart />
+                    <UserChart />
                     <div className="active-social my-3" />
                     <p style={{ display: 'inline-block', fontSize: 11, color: 'gray' }}>Last 7 days <i className="fa fa-caret-down" aria-hidden="true"></i></p>
                 </div>

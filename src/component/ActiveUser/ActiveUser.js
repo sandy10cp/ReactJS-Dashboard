@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './ActiveUser.css'
+import Spinner from './Loading'
 
 class ActiveUser extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            datauser: []
+            datauser: [],
+            spinner: true
         };
     }
 
@@ -14,7 +16,7 @@ class ActiveUser extends React.Component {
             .then(response => response.json())
             .then(data => {
                 console.log(data.results)
-                this.setState({ datauser: data.results })
+                this.setState({ datauser: data.results, spinner: false })
             })
             .catch(error => console.error(error))
     }
@@ -35,15 +37,20 @@ class ActiveUser extends React.Component {
                             </thead>
                             <tbody>
                                 {
-                                    this.state.datauser.map(function (item, i) {
-                                        return (
-                                            <tr key={i}>
-                                                <td><span>{item.name}</span></td>
-                                                <td style={{ textAlign: 'right' }}>15,243</td>
-                                                <td style={{ textAlign: 'right' }}>{item.mass}</td>
-                                            </tr>
-                                        )
-                                    })
+                                    this.state.spinner ?
+                                        <div style={{ marginLeft: '180%', marginTop: '80%' }}>
+                                            <Spinner />
+                                        </div>
+                                        :
+                                        this.state.datauser.map(function (item, i) {
+                                            return (
+                                                <tr key={i}>
+                                                    <td><span>{item.name}</span></td>
+                                                    <td style={{ textAlign: 'right' }}>15,243</td>
+                                                    <td style={{ textAlign: 'right' }}>{item.mass}</td>
+                                                </tr>
+                                            )
+                                        })
                                 }
                             </tbody>
                         </table>
