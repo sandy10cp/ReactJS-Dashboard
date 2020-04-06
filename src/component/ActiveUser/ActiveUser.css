@@ -1,0 +1,51 @@
+.user-active{
+    height: 320px;
+    background-color: white;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #cececea8;
+    
+}
+.table-active-responsive {
+    height: 250px;
+    overflow-y: auto;
+}
+.table-user-active th{
+    color: black;
+}
+
+.table-user-active td span{
+    color: #2ca860;
+}
+.table-user-active td{
+    color: black;
+}
+.active-divider-active{
+    border-top: 0.5px solid #cececea8;
+}
+
+.report-active{
+    color: #2ca860;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

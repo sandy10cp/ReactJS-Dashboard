@@ -1,0 +1,22 @@
+th{
+    font-size: 12px;
+    font-weight: unset;
+    color:#f8f8f8a4;
+
+}
+tr>td{
+    font-size: 12px;
+    font-weight: unset;
+    color: #f8f8f8a4;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0px;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0.5px solid #cececea8;
+}

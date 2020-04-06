@@ -1,0 +1,20 @@
+.chart-bar{
+    height: 50px;
+    width: 8px;
+    margin-right: 1px;
+    background-color: #8eb9ee;
+}
+
+.chart-bar-top{
+    height: 2px;
+    width: 8px;
+    margin-right: 1px;
+    background-color: #2e6dbe;
+}
+
+.chart-bar-top2{
+    height: 2px;
+    width: 8px;
+    margin-right: 1px;
+    background-color: #ddeafc;
+}

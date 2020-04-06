@@ -1,0 +1,28 @@
+.social-learning{
+    height: 400px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #cececea8;
+}
+.active-social{
+    border-top: 0.5px solid #cececea8;
+}
+
+.social-tab{
+    margin-right: 50px;
+    font-weight: 500;
+}
+.active-tab{
+    width: 110px;
+    margin-right: 50px;
+    font-weight: 500;
+    border-top: 3px solid #2a8f16fd;
+    position: absolute;
+    left: 16px;
+    top: 32px;
+}

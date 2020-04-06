@@ -1,0 +1,29 @@
+.header{
+    background-color: #FAFAFA;
+}
+.navbar {
+    border-radius: 0px;
+    border-bottom: 1px solid #cecece;
+}
+.logo{
+    width: 90px;
+    height: 35px;
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+}
+
+.glyphicon-bell{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #9b9b9b;
+}
+
+.bell-badge{
+    height: 15px;
+    font-size: 8px;
+    position: absolute;
+    margin-left: 10px;
+}

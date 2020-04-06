@@ -1,0 +1,40 @@
+hr {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.sidebar{
+    margin-top: 20px;
+}
+
+.sidebar a{
+    margin-left: 10px;
+}
+
+a.active {
+    color: #43b35e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a {
+    color: #7a7a7a;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li{
+    margin-left: 10px;
+}
+
+.sidebar-heading{
+    color: #7a7a7a;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.sidebar-divider{
+    border-top: 1px solid #cecece;
+    width: 100%;
+}

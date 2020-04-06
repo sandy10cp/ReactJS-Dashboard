@@ -1,0 +1,69 @@
+.codemi-home{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+span{
+    font-size: 15px;
+    font-weight: 300;
+    color: #555555;
+}
+.nav-tabs {
+    border-bottom: 0px;
+}
+
+.active-card{
+    height: 490px;
+    background-color: #4184fa;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.active-title{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.active-count{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 40px;
+}
+.active-page-view{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #f8f8f8a4;
+    font-size: 12px;
+}
+
+.active-divider{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 0.5px solid #cececea8;
+}
+
+.active-divider1{
+    border-top: 0.5px solid #cececea8;
+}
+
+.active-chart{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+}
+
+.active-top-page{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.active-realt-time{
+    margin-right: 10px;
+    color: #ffffffb9;
+    font-weight: 600;
+}
+.active-realt-time i{
+    font-weight: bold;
+}
+
